@@ -1,8 +1,5 @@
 module "vpc" {
-  #source  = "../13-terraform-aws-vpc-module"
   source = "git::https://github.com/PraneethReddy2701/13-terraform-aws-vpc-module.git?ref=main"
-  #version = "5.0.0" # Use a specific version
-
 
   project = var.project
   environment = var.environment
